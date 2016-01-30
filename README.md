@@ -3,7 +3,7 @@ This is an API that returns a cookie for the user.
 
 #erm about this branch
 ->benolot's code ported to python  
-how to use atm in python (for those who don't have any idea how):  
+how to use atm in python (for those who don't have any idea how) this is for CookieMod btw:  
 -put the CookieMod file in the same directory as your program  
 -add 'import CookieMod' to the top of your program  
 -create a cookie obect by typing 'cookie = CookieMod()' in your program  
