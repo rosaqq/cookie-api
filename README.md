@@ -10,5 +10,8 @@ how to use CookieMod (for those who don't have any idea how):
 -after that use 'cookie.add_cookie([image adress aka img url])' in your program to add cookie images to the database  
 -use 'cookie.cookie()' to get the filepath of a random cookie in the database
 
+#The Idea behind making this work
+Yeah, this IS a proper api. It just looks like one. Here have a flowchart explaining the process: http://i.imgur.com/kwCudvW.png
+
 #License
 The Do-What-The-Hell-You-Want-License 2016 edition. You can do what the hell you want with this API, whenever you want, wherever you want. Enjoy.
