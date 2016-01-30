@@ -1,14 +1,14 @@
 #Cookie-api
 This is an API that returns a cookie for the user.
 
-#erm about this branch
+#About this branch
 ->benolot's code ported to python  
 how to use CookieMod (for those who don't have any idea how):  
 -put the CookieMod file in the same directory as your program  
 -add 'import CookieMod' to the top of your program  
 -create a cookie obect by typing 'cookie = CookieMod.CookieMod()' in your program  
 -after that use 'cookie.add_cookie([image adress aka img url])' in your program to add cookie images to the database  
--use 'cookie.cookie()' to get the filepath of a random cookie in the database
+-use 'cookie.cookie()' in your program to get the filepath of a random cookie in the database
 
 #The Idea behind making this work
 Yeah, this IS a proper api. It just looks like one. Here have a flowchart explaining the process: http://i.imgur.com/kwCudvW.png
