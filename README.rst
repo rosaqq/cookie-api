@@ -1,9 +1,12 @@
 Benolot's cookie API, python version
 ------------------------------------
 
-This package gives you 2 functions, "add" and "gib"::
-	add('http://someRandomImageUrl.com') saves that image to a databse folder  
-	gib() returns the path to one of the images inside that folder, randomly picked  
+This package gives you two functions, add and gib, explained below:
+
+add
+  The 'add' function takes a cookie image url as argument and saves that image to a database folder.
+gib
+  The 'gib' function takes no argumens and returns the path to one of the images in the previously mentioned databse folder, randomely picked. 
 
 To use, simply do::
 
