@@ -10,6 +10,7 @@ gib
 
 
 To use, simply do::
+
     >>> import realcookie
     >>> a = realcookie.cookie()
     >>> a.add('some cookie image url')
