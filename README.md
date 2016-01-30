@@ -1,14 +1,14 @@
 #Cookie-api
 This is an API that returns a cookie for the user.
 
-#erm about this branch
+#About this branch
 ->benolot's code ported to python  
-how to use atm in python (for those who don't have any idea how):  
+how to use at the moment in python (for those who don't have any idea how):  
 -put the CookieMod file in the same directory as your program  
 -add 'import CookieMod' to the top of your program  
 -create a cookie obect by typing 'cookie = CookieMod()' in your program  
--after that use 'cookie.add_cookie([image adress aka img url])' to add cookie images to the database  
--use 'cookie.cookie()' to get the filepath of a random cookie in the database
+-after that use 'cookie.add_cookie([image adress aka img url])' to add cookie images to the database  (In the bots console / discord monitoring channel / etc)
+-use 'cookie.cookie()' to get the filepath of a random cookie in the database (This is what code should be ran after the command)
 
 #License
 The Do-What-The-Hell-You-Want-License 2016 edition. You can do what the hell you want with this API, whenever you want, wherever you want. Enjoy.
