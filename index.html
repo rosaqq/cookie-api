@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<title>Cookie API Example</title>
+	</head>
+	<body>
+		<!-- Output span here -->
+		<span id="cookieoutput"></span>
+		<!--Scripts below here for improved loading times and to see if it helps make it -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 		<script>
 			var request = new XMLHttpRequest();
@@ -20,9 +26,5 @@
 			request.open( 'GET', './cookieurls.txt', true );
 			request.send();
 		</script>
-		<title>Cookie API Example</title>
-	</head>
-	<body>
-		<span id="cookieoutput"></span>
 	</body>
 </html>
