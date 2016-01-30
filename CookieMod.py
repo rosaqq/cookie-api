@@ -6,19 +6,19 @@ import urllib.parse
 
 class CookieMod:
 
-    def __init__(self, client, message):
-        self.client = client
-        self.message = message
+    def __init__(self):
         self.folder = 'cookies'
         if not os.path.exists(self.folder):
             os.makedirs(self.folder)
         self.img_number = len(os.listdir(self.folder))
 
-    async def send_cookie(self):
+    # returns the path to a random cookie in the cookies folder
+    async def cookie(self):
         a = random.randint(1, self.img_number)
         path = self.folder + '/' + str(a) + '.png'
-        await self.client.send_file(self.message.channel, fp=path)
-        
+        return path
+
+    # dowloads a cookie from image url to the cookies file    
     async def add_cookie(self, img_url):
         try:
             filename = os.listdir(self.folder)
