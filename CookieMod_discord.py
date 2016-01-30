@@ -15,7 +15,7 @@ class CookieMod:
         self.img_number = len(os.listdir(self.folder))
 
     async def py_cookie(self):
-        a = random.randint(1, self.img_number)
+        a = random.randint(1, self.img_number + 1)
         path = self.folder + '/' + str(a) + '.png'
         await self.client.send_file(self.message.channel, fp=path)
         

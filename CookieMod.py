@@ -1,7 +1,6 @@
 import random
 import os
 import urllib.request
-import urllib.parse
 
 
 class CookieMod:
@@ -13,13 +12,13 @@ class CookieMod:
         self.img_number = len(os.listdir(self.folder))
 
     # returns the path to a random cookie in the cookies folder
-    async def cookie(self):
-        a = random.randint(1, self.img_number)
+    def cookie(self):
+        a = random.randint(1, self.img_number + 1)
         path = self.folder + '/' + str(a) + '.png'
         return path
 
     # dowloads a cookie from image url to the cookies file    
-    async def add_cookie(self, img_url):
+    def add_cookie(self, img_url):
         try:
             filename = os.listdir(self.folder)
             last_name = filename[-1].replace('.png', '')
