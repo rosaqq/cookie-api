@@ -26,3 +26,7 @@ class cookie:
         except IndexError:
             new_name = '1.png'
         urllib.request.urlretrieve(img_url, 'cookies/' + new_name)
+
+    # returns the number of cookie images in the folder
+    def count(self):
+        return self.img_number
