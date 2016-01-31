@@ -13,6 +13,11 @@ rm
   The 'rm' function deletes the database folder and all the images in it.
 
 
+To install, simply do::
+    pip install realcookie
+
+  
+
 To use, simply do::
 
     >>> import realcookie
