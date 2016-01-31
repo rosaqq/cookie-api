@@ -14,9 +14,10 @@ rm
 
 
 To install, simply do::
+
     pip install realcookie
 
-  
+
 
 To use, simply do::
 
