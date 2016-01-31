@@ -1,6 +1,7 @@
 import random
 import os
 import urllib.request
+import shutil
 
 
 class cookie:
@@ -25,8 +26,12 @@ class cookie:
             new_name = str(int(last_name) + 1) + '.png'
         except IndexError:
             new_name = '1.png'
-        urllib.request.urlretrieve(img_url, 'cookies/' + new_name)
+        urllib.request.urlretrieve(img_url, self.folder + '/' + new_name)
 
     # returns the number of cookie images in the folder
     def count(self):
         return self.img_number
+
+    # deletes all the images and the folder. usefull for resets
+    def rm(self):
+        shutil.rmtree(self.folder)
