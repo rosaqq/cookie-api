@@ -3,7 +3,7 @@ This is an API that returns a cookie for the user.
 
 #Other Branches  
 #####Python branch  
-If you came here from PyPI or are just looking for the python version, go to the 'python' branch.
+If you came here from PyPI or are just looking for the python version, change to the 'python' branch.
 The the readme over there has more detailed documentation on the python version.
 
 #Setup
