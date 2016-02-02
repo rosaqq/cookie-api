@@ -15,7 +15,7 @@ class cookie:
     # returns the path to a random cookie in the cookies folder
     def gib(self):
         self.img_number = len(os.listdir(self.folder))
-        a = random.randint(1, self.img_number + 1)
+        a = random.randint(1, self.img_number)
         path = self.folder + '/' + str(a) + '.png'
         return path
 
