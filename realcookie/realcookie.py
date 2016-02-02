@@ -19,7 +19,7 @@ class cookie:
         path = self.folder + '/' + str(a) + '.png'
         return path
 
-    # dowloads a cookie from image url to the cookies file    
+    # dowloads a cookie from image url to the cookies folder    
     def add(self, img_url):
         try:
             filename = os.listdir(self.folder)
