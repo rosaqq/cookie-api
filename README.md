@@ -1,8 +1,10 @@
 #Cookie-api
 This is an API that returns a cookie for the user.
 
-#Other Branches
-We also have a python branch, that can be ran inside your python bot.
+#Other Branches  
+#####Python branch  
+If you came here from PyPI or are just looking for the python version, go to the 'python' branch.
+The the readme over there has more detailed documentation on the python version.
 
 #Setup
 Okay so, first of all, there are two ways of running this. The options are below. 
