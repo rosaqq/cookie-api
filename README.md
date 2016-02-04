@@ -6,6 +6,9 @@ This is an API that returns a cookie for the user.
 If you came here from PyPI or are just looking for the python version, change to the 'python' branch.
 The the readme over there has more detailed documentation on the python version.
 
+#####PHP branch
+The PHP branch is a more code friendly version of the JS (master) branch. There's no need to work around JS to get the output you want to scrape.
+
 #Setup
 Okay so, first of all, there are two ways of running this. The options are below. 
 
