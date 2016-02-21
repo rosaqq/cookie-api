@@ -8,7 +8,6 @@ Benolot's cookie API, python version
 .. image:: ball1.gif
 
 |
-|
 Can also be found here: https://pypi.python.org/pypi/realcookie  
 
 This python package gives you three functions, add, gib, count, and rm, explained below:
