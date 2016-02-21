@@ -7,8 +7,10 @@ Benolot's cookie API, python version
    :target: https://pypi.python.org/pypi/realcookie
 .. image:: ball1.gif
 
-..
-..
+::
+
+	  
+
 
 Can also be found here: https://pypi.python.org/pypi/realcookie  
 
