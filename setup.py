@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name='realcookie',
-      version='1.0.6',
+      version='1.0.7',
       description="Benolot's cookie API, python version",
       long_description='This module allows you to save cookie images from a URL to a folder and then provides you with the path to a random image in that folder.',
       url='https://github.com/secknv/cookie-api',
