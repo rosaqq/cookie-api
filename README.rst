@@ -1,7 +1,9 @@
 Benolot's cookie API, python version
 ------------------------------------
 
-This package gives you three functions, add, gib, count, and rm, explained below:
+Can also be found here: https://pypi.python.org/pypi/realcookie  
+
+This python package gives you three functions, add, gib, count, and rm, explained below:
 
 add
   The 'add' function takes a cookie image url as argument and saves that image to a database folder.
@@ -13,7 +15,7 @@ rm
   The 'rm' function deletes the database folder and all the images in it.
 
 
-To install, simply do::
+To install, simply open cmd.exe in Windows or your specific OS's equivalent thing and do::
 
     pip install realcookie
 
