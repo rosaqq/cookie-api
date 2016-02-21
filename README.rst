@@ -1,9 +1,9 @@
 Benolot's cookie API, python version
 ------------------------------------
-.. image:: https://img.shields.io/pypi/pyversions/realcookie.svg
+.. image:: https://img.shields.io/pypi/pyversions/realcookie.svg?style=flat-square
    :target: https://pypi.python.org/pypi/realcookie
 .. image:: ball1.gif
-.. image:: https://img.shields.io/pypi/v/realcookie.svg
+.. image:: https://img.shields.io/pypi/v/realcookie.svg?style=flat-square
    :target: https://pypi.python.org/pypi/realcookie
 
 Can also be found here: https://pypi.python.org/pypi/realcookie  
