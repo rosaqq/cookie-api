@@ -1,12 +1,12 @@
 Benolot's cookie API, python version
 ------------------------------------
 
+.. image:: https://img.shields.io/travis/secknv/cookie-api.svg?style=flat-square
+   :target: https://travis-ci.org/secknv/cookie-api
 .. image:: https://img.shields.io/pypi/v/realcookie.svg?style=flat-square
    :target: https://pypi.python.org/pypi/realcookie
 .. image:: https://img.shields.io/pypi/pyversions/realcookie.svg?style=flat-square
    :target: https://pypi.python.org/pypi/realcookie
-.. image:: https://img.shields.io/travis/secknv/cookie-api.svg?style=flat-square
-   :target: https://travis-ci.org/secknv/cookie-api
 .. image:: ball1.gif
 
 |
